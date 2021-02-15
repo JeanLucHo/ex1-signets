@@ -8,7 +8,7 @@ export default function ContenuSignet({ id, titre, couleur, dateModifie }) {
                 <br/>
                 -
             </button>
-            <img src={`images-chats/${id}.jpeg`} alt="chat"/>
+            <img src= {`images-chats/${id}.png`} alt="chat"/>
             <h3>{titre}</h3>
             <h4>{dateModifie}</h4>
 
